@@ -5,6 +5,30 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* Nav bar */
+header{
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.navber{
+    border: 2px solid blue;
+    background-color: blue;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .flex-list , li{
+     text-align: end;
+    display: flex;
+    margin-right: 50px;
+    font-size: 20px;
+    list-style: none;
+    color: whitesmoke;
+}
 main{
     display: flex;
     flex-direction: column;
